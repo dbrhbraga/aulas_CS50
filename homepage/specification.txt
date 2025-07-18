@@ -1,0 +1,39 @@
+- Tags:
+
+<nav>
+<footer>
+<header>
+<figcaption>
+<figure>
+<blockquote>
+<button>
+<ul>
+<li>
+<label>
+<form>
+<input>
+<img>
+<strong>
+
+- CSS
+font-family
+background-color
+margin
+padding
+display
+justify-content
+align-items
+min-height
+blockquote-footer
+label
+
+- Boostrap:
+
+Blockquote: Chosen to signal a line from Rory in the series Gilmore Girls.
+
+Accordions: They are useful to toggle between hiding and showing text.
+
+- JavaScript:
+
+Polls Project using HTML CSS & JavaScript. Used to find out the user's opinion about which Educational Institution Rory should have chosen.
+Havardo or Rory?
