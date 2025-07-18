@@ -1,0 +1,14 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+Sort 1 was the fastest on sorted files, so it's Bubble. Bubble is the fastest method on an already sorted array.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+For a reversed file, sort 2 was much more faster compared to the others sorting programs which is a distinguishable feature of Merge Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?:
+Selection sort is slower when thru an already sorted list then Bubble sort method, and faster then Merge sort. That's exactly what the Sort 3 program reported.

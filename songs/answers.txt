@@ -1,0 +1,10 @@
+It is possible to verify through the analysis of the 100 most played songs in our sample some data about their danceability, energy, and balance.
+
+After calculations, it's accurate to say that the DANCEABILITY stood out, pointing out an average of 0.71646,
+followed by ENERGY with a relatively high average of 0.65906, and the VALANCE average of 0.484443.
+
+The VALANCE average showed that this user listened to both sad and happy music, which points to the Blue Mood group.
+
+
+Data, in general, cannot be interpreted so blindly. One can listen to happy music when sad to change their mood.
+The same can happen when someone is discouraged and listens to energetic music to cheer themselves up.

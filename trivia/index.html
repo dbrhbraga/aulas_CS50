@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+
+            function checkanswer(button){
+                var answer = button.getAttribute('data-answer');
+                var response = document.getElementById('response');
+
+                if (answer === 'correct'){
+                    button.style.backgroundColor = 'green';
+                    response.innerHTML = 'Correct!';
+                    response.style.color = 'green';
+                }
+
+                else {
+                    input.style.backgroundColor = 'red';
+                    response.innerHTML = 'Incorrect';
+                    response.style.color = 'red';
+                }
+            }
+
+            function checkTextAnswer() {
+                var input = document.getElementById('text-answer');
+                var response = document.getElementById('text-response');
+                var answer = input.value;
+
+                if(answer === 'Brazil'){
+                    input.style.backgroundColor = 'green';
+                    response.innerHTML = 'Correct!';
+                    response.style.color = 'green';
+                } else {
+                    input.style.backgroundColor = 'red';
+                    response.innerHTML = 'Incorrect';
+                    response.style.color = 'red';
+                }
+                }
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+     </div>
+  <div class="container">
+     <div class="section">
+        <h2>Part 1: Multiple Choice</h2>
+        <hr>
+        <h3>How many World Cups were won by the country that won the most?</h3>
+        <button data-answer="incorrect" onclick="checkanswer(this)"> 3 </button>
+        <button data-answer="correct" onclick="checkanswer(this)">5</button>
+        <button data-answer="incorrect" onclick="checkanswer(this)">2</button>
+        <button data-answer="incorrect" onclick="checkanswer(this)">4</button>
+        <div class="response"></div>
+     </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                 <h3>Which country has won the most World Cups?</h3>
+                 <input type="text" id="text-answer">
+                 <button onclick="checkTextAnswer()">Confirm answer.</button>
+                 <div id="text-response"></div>
+            </div>
+        </div>
+    </body>
+</html>
