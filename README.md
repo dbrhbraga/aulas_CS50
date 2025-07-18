@@ -1,4 +1,4 @@
-# 💻 CS50 – Introduction to Computer Science
+# 💻 CS50 – Introduction to Computer Science - (2024)
 
 Repositório com as atividades, projetos e anotações desenvolvidas durante o curso **CS50x**, oferecido por Harvard University por meio da plataforma [edX](https://cs50.harvard.edu/x/).
 
